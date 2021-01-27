@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>MyQuiz Game</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+
+
+
+
+<script>
+ 
+  var firebaseConfig = {
+    apiKey: "AIzaSyCxTrEaVeoJSFKwJN0RFUevmeRJ6n_Otks",
+    authDomain: "mera-quiz-game.firebaseapp.com",
+    databaseURL: "https://mera-quiz-game-default-rtdb.firebaseio.com",
+    projectId: "mera-quiz-game",
+    storageBucket: "mera-quiz-game.appspot.com",
+    messagingSenderId: "552112609269",
+    appId: "1:552112609269:web:f1464f6e40bd47e369f2bc"
+  };
+
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+
+
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+
+    <script src="Quiz/QUESTIONS.JS"></script>
+    <script src="Quiz/quiz.js"></script>
+    <script src="Quiz/contestant.js"></script>
+    <script src="sketch.js"></script>
+    
+  </body>
+</html>
